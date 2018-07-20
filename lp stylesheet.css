@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(adventure-aerial-autumn-640809.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+}
+
+nav{
+    background-color: transparent;
+    height: 100px;
+    font-size: 1.2em;
+    padding-right: 0;
+}
+/* Unvisited Link */
+nav div a:link{
+    color: white;
+}
+
+/* Visited Link */
+nav div a:visited{
+    color: white;
+}
+
+/* Mouse Over Link */
+nav div a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Selected Link */
+nav div a:active{
+    color: #909090;
+}
+/*.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a{
+   color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}*/
+
+.logo img {
+    float: left;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.centered {
+    position: relative;
+    top: 15%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: snow;
+    font-family: javacom;
+    font-size: 100px;
+}
+
+#img {
+    position: center;
+    transform: translate(-50%, -50%);
+    right: 50%;    
+}
+
+.carousel-indicators li{
+    font-size: 1em;
+    color: lightgray;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    text-indent: 0px;
+    background-color: transparent;
+}
+
+.carousel-indicators li.active{
+    color: white;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+/* Customizing CSS Properties of Carousel Controls */
+a.carousel-control-prev, a.carousel-control-next{
+    font-size: 3em;
+    color: lightgray;
+}
+
+a.carousel-control-prev:hover, a.carousel-control-next:hover{
+    color: white;
+}
+
+a.carousel-control-prev{
+    left: -90px;
+}
+
+a.carousel-control-next{
+    right: -90px;
+}
+
+/* Customizing CSS Properties of Textbox Caption */
+.carousel-caption{
+    background-color: rgb(50,50,50,0.7);
+}
+#carouselarea{
+    background-color: dimgray;
+    padding-top: 100px;
+    margin-bottom: 200px;
+    color: white;
+}
+
+#carouselarea footer{
+    color: darkblue;
+}
+
+#carouselarea blockquote{
+    margin-bottom: 75px;
+}
+
+nav.navbar{
+    z-index: 999;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+a i.icons{
+    font-size: 60px;
+    color: white;
+}
+
+
+
