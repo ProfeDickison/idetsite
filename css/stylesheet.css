@@ -1,0 +1,68 @@
+
+.icons{
+    font-size: 30px;
+    color: black
+}
+
+nav{
+    background-color: lightgrey;
+    height: 100px;
+    font-size: 1.2em;
+}
+/* Unvisited Link */
+nav div a:link{
+    color: black;
+}
+
+/* Visited Link */
+nav div a:visited{
+    color: white;
+}
+
+/* Mouse Over Link */
+nav div a:hover{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+/* Selected Link */
+nav div a:active{
+    color: #909090;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    color: snow;
+    font-family: javacom;
+    font-size: 125px;
+}
+
+#header { 
+    /* The image used */
+    background-image: url("../IMG/clouds-fog-forest-6718.jpg");
+    /* go to w3 schools background-image and look how to fix it within the window*/
+    background-size: 100%;
+    /* Set a specific height */
+    height: 100%;
+    background-attachment: fixed;
+  
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    position: center;
+}
+
+#skills {
+    text-align: left;
+}
+
+#education {
+    text-align: left;
+}
+
